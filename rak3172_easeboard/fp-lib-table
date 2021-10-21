@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name rak3172_easeboard)(type KiCad)(uri ${KIPRJMOD}/libs/rak3172_easeboard.pretty)(options "")(descr ""))
+)

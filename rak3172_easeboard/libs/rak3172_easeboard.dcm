@@ -1,0 +1,129 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +BATT
+D Power symbol creates a global label with name "+BATT"
+K power-flag battery
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CP
+D Polarized capacitor
+K cap capacitor
+F https://www.mouser.es/datasheet/2/212/1/KEM_T2050_T491_AUTO-1093567.pdf
+$ENDCMP
+#
+$CMP Conn_Coaxial
+D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+F  ~
+$ENDCMP
+#
+$CMP D
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP FT232RL
+D USB to Serial Interface, SSOP-28
+K FTDI USB Serial
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+$ENDCMP
+#
+$CMP Fuse
+D Fuse (PTC, or others)
+K R res resistor
+F https://www.mouser.es/datasheet/2/643/ds_CP_0zcg_series-1960332.pdf
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP JST_1x2
+D Pin Header 1x02
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP PH_1x10
+D Pin Header 1x10
+$ENDCMP
+#
+$CMP PH_1x8
+D Pin Header 1x08
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP RAK3172
+D STM32WL5x Module for LoRa, Sigfox, GFSK modulations
+K STM32WL5x, LoRa, LoRaWAN, Sigfox, GFSK, RF
+F https://docs.rakwireless.com/Product-Categories/WisDuo/RAK3172-Module/Datasheet
+$ENDCMP
+#
+$CMP SPX3819
+D 500mA LDO regulator, shutdown pin, 3.3V fixed positive output, SOT-23-5
+F https://www.maxlinear.com/ds/spx3819.pdf
+$ENDCMP
+#
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F https://www.mouser.es/datasheet/2/358/typ_6x6_mm_tact_switches-1275689.pdf
+$ENDCMP
+#
+$CMP SolderJumper_2_Bridged
+D Solder Jumper, 2-pole, closed/bridged
+K solder jumper SPST
+F ~
+$ENDCMP
+#
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP USB_C_Receptacle
+D USB Full-Featured Type-C Receptacle connector
+K usb universal serial bus type-C full-featured
+F https://gct.co/connector/usb4105
+$ENDCMP
+#
+$CMP VBUS
+D Power symbol creates a global label with name "VBUS"
+K power-flag
+$ENDCMP
+#
+$CMP VCC
+D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
+#End Doc Library
