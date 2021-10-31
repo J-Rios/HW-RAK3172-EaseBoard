@@ -1,4 +1,4 @@
-27770470530160
+26138213795552
 rak3172_easeboard
 C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
 Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
@@ -105,16 +105,9 @@ TSOT-23-5 Hand-soldering
 5
 5
 rak3172_easeboard
-TestPoint_THTPad_D2.5mm_Drill1.2mm
-THT pad as test Point, diameter 2.5mm, hole diameter 1.2mm 
-test point THT pad
+USB_C_Receptacle_12
+USB Type-C receptacle for USB 2.0 and PD
+
 0
-1
-1
-rak3172_easeboard
-USB_C_Receptacle_HRO_TYPE-C-31-M-12
-USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
-usb usb-c 2.0 pd
-0
-20
-17
+16
+16

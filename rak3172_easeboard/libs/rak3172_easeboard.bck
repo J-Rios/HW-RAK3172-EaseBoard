@@ -67,32 +67,8 @@ K LED diode
 F ~
 $ENDCMP
 #
-$CMP PH_1x1
-D Pin Header 1x01
-$ENDCMP
-#
 $CMP PH_1x10
 D Pin Header 1x10
-$ENDCMP
-#
-$CMP PH_1x2
-D Pin Header 1x02
-$ENDCMP
-#
-$CMP PH_1x3
-D Pin Header 1x03
-$ENDCMP
-#
-$CMP PH_1x4
-D Pin Header 1x04
-$ENDCMP
-#
-$CMP PH_1x5
-D Pin Header 1x05
-$ENDCMP
-#
-$CMP PH_1x6
-D Pin Header 1x06
 $ENDCMP
 #
 $CMP PH_1x8
@@ -134,10 +110,16 @@ K test point tp
 F ~
 $ENDCMP
 #
-$CMP USB_C_Receptacle
+$CMP USB_C_Receptacle_Full
 D USB Full-Featured Type-C Receptacle connector
 K usb universal serial bus type-C full-featured
 F https://gct.co/connector/usb4105
+$ENDCMP
+#
+$CMP USB_C_Receptacle_Simply
+D USB Simplify-Featured Type-C Receptacle connector
+K usb universal serial bus type-C simplify-featured
+F https://www.mouser.es/datasheet/2/837/USB4105_spec-2327646.pdf
 $ENDCMP
 #
 $CMP VBUS

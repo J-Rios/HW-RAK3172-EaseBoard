@@ -110,10 +110,16 @@ K test point tp
 F ~
 $ENDCMP
 #
-$CMP USB_C_Receptacle
+$CMP USB_C_Receptacle_Full
 D USB Full-Featured Type-C Receptacle connector
 K usb universal serial bus type-C full-featured
 F https://gct.co/connector/usb4105
+$ENDCMP
+#
+$CMP USB_C_Receptacle_Simply
+D USB Simplify-Featured Type-C Receptacle connector
+K usb universal serial bus type-C simplify-featured
+F https://www.mouser.es/datasheet/2/837/USB4105_spec-2327646.pdf
 $ENDCMP
 #
 $CMP VBUS
