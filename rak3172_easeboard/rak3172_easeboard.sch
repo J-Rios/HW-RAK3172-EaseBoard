@@ -16,222 +16,222 @@ $EndDescr
 $Comp
 L rak3172_easeboard:GND #PWR09
 U 1 1 6153B896
-P 4200 6950
-F 0 "#PWR09" H 4200 6700 50  0001 C CNN
-F 1 "GND" H 4205 6777 50  0000 C CNN
-F 2 "" H 4200 6950 50  0001 C CNN
-F 3 "" H 4200 6950 50  0001 C CNN
-	1    4200 6950
+P 4100 6950
+F 0 "#PWR09" H 4100 6700 50  0001 C CNN
+F 1 "GND" H 4105 6777 50  0000 C CNN
+F 2 "" H 4100 6950 50  0001 C CNN
+F 3 "" H 4100 6950 50  0001 C CNN
+	1    4100 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 6700 4050 6700
+	4100 6700 3950 6700
 Wire Wire Line
-	4050 6600 4200 6600
-Connection ~ 4200 6700
+	3950 6600 4100 6600
+Connection ~ 4100 6700
 Wire Wire Line
-	4050 5700 4200 5700
-Connection ~ 4200 6600
+	3950 5700 4100 5700
+Connection ~ 4100 6600
 Wire Wire Line
-	3150 5200 4200 5200
-Connection ~ 4200 5700
+	3050 5200 4100 5200
+Connection ~ 4100 5700
 Wire Wire Line
-	4050 5600 4400 5600
+	3950 5600 4300 5600
 $Comp
 L rak3172_easeboard:C C1
 U 1 1 615521E5
-P 950 4750
-F 0 "C1" H 1065 4796 50  0000 L CNN
-F 1 "10uF" H 1065 4705 50  0000 L CNN
-F 2 "rak3172_easeboard:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 900 4250 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/585/MLCC-1837944.pdf" H 950 4750 50  0001 C CNN
-F 4 "0.14" H 950 4750 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Samsung-Electro-Mechanics/CL21A106MPFNNNE?qs=yOVawPpwOwlXBzwV9QwtkA%3D%3D" H 950 4750 50  0001 C CNN "Mouser"
-	1    950  4750
+P 850 4750
+F 0 "C1" H 965 4796 50  0000 L CNN
+F 1 "10uF" H 965 4705 50  0000 L CNN
+F 2 "rak3172_easeboard:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 800 4250 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/585/MLCC-1837944.pdf" H 850 4750 50  0001 C CNN
+F 4 "0.14" H 850 4750 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Samsung-Electro-Mechanics/CL21A106MPFNNNE?qs=yOVawPpwOwlXBzwV9QwtkA%3D%3D" H 850 4750 50  0001 C CNN "Mouser"
+	1    850  4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L rak3172_easeboard:C C2
 U 1 1 61552C1F
-P 1350 4750
-F 0 "C2" H 1465 4796 50  0000 L CNN
-F 1 "100nF" H 1465 4705 50  0000 L CNN
-F 2 "rak3172_easeboard:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1300 4250 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1350 4750 50  0001 C CNN
-F 4 "0.09" H 1350 4750 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/KEMET/C0805C104M5RACTU?qs=sGAEpiMZZMsh%252B1woXyUXj%252BSRFd9RE8bC9ywBatmv%2F3c%3D" H 1350 4750 50  0001 C CNN "Mouser"
-	1    1350 4750
+P 1250 4750
+F 0 "C2" H 1365 4796 50  0000 L CNN
+F 1 "100nF" H 1365 4705 50  0000 L CNN
+F 2 "rak3172_easeboard:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1200 4250 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1250 4750 50  0001 C CNN
+F 4 "0.09" H 1250 4750 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/KEMET/C0805C104M5RACTU?qs=sGAEpiMZZMsh%252B1woXyUXj%252BSRFd9RE8bC9ywBatmv%2F3c%3D" H 1250 4750 50  0001 C CNN "Mouser"
+	1    1250 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L rak3172_easeboard:C C3
 U 1 1 615531F3
-P 5700 5650
-F 0 "C3" H 5815 5696 50  0000 L CNN
-F 1 "100nF" H 5815 5605 50  0000 L CNN
-F 2 "rak3172_easeboard:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5650 5150 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 5700 5650 50  0001 C CNN
-F 4 "0.09" H 5700 5650 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/KEMET/C0805C104M5RACTU?qs=sGAEpiMZZMsh%252B1woXyUXj%252BSRFd9RE8bC9ywBatmv%2F3c%3D" H 5700 5650 50  0001 C CNN "Mouser"
-	1    5700 5650
+P 5800 5250
+F 0 "C3" H 5915 5296 50  0000 L CNN
+F 1 "100nF" H 5915 5205 50  0000 L CNN
+F 2 "rak3172_easeboard:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5750 4750 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 5800 5250 50  0001 C CNN
+F 4 "0.09" H 5800 5250 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/KEMET/C0805C104M5RACTU?qs=sGAEpiMZZMsh%252B1woXyUXj%252BSRFd9RE8bC9ywBatmv%2F3c%3D" H 5800 5250 50  0001 C CNN "Mouser"
+	1    5800 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L rak3172_easeboard:GND #PWR011
 U 1 1 6155FD44
-P 5700 5900
-F 0 "#PWR011" H 5700 5650 50  0001 C CNN
-F 1 "GND" H 5705 5727 50  0000 C CNN
-F 2 "" H 5700 5900 50  0001 C CNN
-F 3 "" H 5700 5900 50  0001 C CNN
-	1    5700 5900
+P 5800 5500
+F 0 "#PWR011" H 5800 5250 50  0001 C CNN
+F 1 "GND" H 5805 5327 50  0000 C CNN
+F 2 "" H 5800 5500 50  0001 C CNN
+F 3 "" H 5800 5500 50  0001 C CNN
+	1    5800 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 4900 5700 5000
+	5800 4500 5800 4600
 Wire Wire Line
-	5700 5300 5700 5400
+	5800 4900 5800 5000
 Wire Wire Line
-	5700 5800 5700 5900
+	5800 5400 5800 5500
 Wire Wire Line
-	1150 4500 1150 4550
+	1050 4500 1050 4550
 Wire Wire Line
-	1150 4550 950  4550
+	1050 4550 850  4550
 Wire Wire Line
-	950  4550 950  4600
+	850  4550 850  4600
 Wire Wire Line
-	1350 4600 1350 4550
+	1250 4600 1250 4550
 Wire Wire Line
-	1350 4550 1150 4550
-Connection ~ 1150 4550
+	1250 4550 1050 4550
+Connection ~ 1050 4550
 $Comp
 L rak3172_easeboard:GND #PWR02
 U 1 1 6157026D
-P 1150 5000
-F 0 "#PWR02" H 1150 4750 50  0001 C CNN
-F 1 "GND" H 1155 4827 50  0000 C CNN
-F 2 "" H 1150 5000 50  0001 C CNN
-F 3 "" H 1150 5000 50  0001 C CNN
-	1    1150 5000
+P 1050 5000
+F 0 "#PWR02" H 1050 4750 50  0001 C CNN
+F 1 "GND" H 1055 4827 50  0000 C CNN
+F 2 "" H 1050 5000 50  0001 C CNN
+F 3 "" H 1050 5000 50  0001 C CNN
+	1    1050 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  4900 950  4950
+	850  4900 850  4950
 Wire Wire Line
-	1350 4900 1350 4950
+	1250 4900 1250 4950
 Wire Wire Line
-	5950 5400 5700 5400
-Connection ~ 5700 5400
+	6050 5000 5800 5000
+Connection ~ 5800 5000
 Wire Wire Line
-	5700 5400 5700 5500
+	5800 5000 5800 5100
 $Comp
 L rak3172_easeboard:GND #PWR012
 U 1 1 6158BEE0
-P 6450 5900
-F 0 "#PWR012" H 6450 5650 50  0001 C CNN
-F 1 "GND" H 6455 5727 50  0000 C CNN
-F 2 "" H 6450 5900 50  0001 C CNN
-F 3 "" H 6450 5900 50  0001 C CNN
-	1    6450 5900
+P 6550 5500
+F 0 "#PWR012" H 6550 5250 50  0001 C CNN
+F 1 "GND" H 6555 5327 50  0000 C CNN
+F 2 "" H 6550 5500 50  0001 C CNN
+F 3 "" H 6550 5500 50  0001 C CNN
+	1    6550 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L rak3172_easeboard:R R4
 U 1 1 615B37EB
-P 6450 5650
-F 0 "R4" H 6520 5696 50  0000 L CNN
-F 1 "100" H 6520 5605 50  0000 L CNN
-F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6380 5650 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 6450 5650 50  0001 C CNN
-F 4 "0.09" H 6450 5650 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220P-101-D?qs=nCAm%252BcMdy9wY7%252BMDbbfOYA%3D%3D" H 6450 5650 50  0001 C CNN "Mouser"
-	1    6450 5650
+P 6550 5250
+F 0 "R4" H 6620 5296 50  0000 L CNN
+F 1 "100" H 6620 5205 50  0000 L CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6480 5250 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 6550 5250 50  0001 C CNN
+F 4 "0.09" H 6550 5250 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220P-101-D?qs=nCAm%252BcMdy9wY7%252BMDbbfOYA%3D%3D" H 6550 5250 50  0001 C CNN "Mouser"
+	1    6550 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 5400 6450 5400
+	6450 5000 6550 5000
 Wire Wire Line
-	6450 5500 6450 5400
+	6550 5100 6550 5000
 Wire Wire Line
-	6450 5800 6450 5900
+	6550 5400 6550 5500
 $Comp
 L rak3172_easeboard:R R6
 U 1 1 6157D2DE
-P 2050 5150
-F 0 "R6" H 2120 5196 50  0000 L CNN
-F 1 "5K1" H 2120 5105 50  0000 L CNN
-F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1980 5150 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/315/AOA0000C307-1149632.pdf" H 2050 5150 50  0001 C CNN
-F 4 "0.09" H 2050 5150 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Panasonic/ERA-6AED512V?qs=MNPzkKEzRtSyMhgZIjuV%252BA%3D%3D" H 2050 5150 50  0001 C CNN "Mouser"
-	1    2050 5150
+P 1950 5150
+F 0 "R6" H 2020 5196 50  0000 L CNN
+F 1 "5K1" H 2020 5105 50  0000 L CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1880 5150 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/315/AOA0000C307-1149632.pdf" H 1950 5150 50  0001 C CNN
+F 4 "0.09" H 1950 5150 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Panasonic/ERA-6AED512V?qs=MNPzkKEzRtSyMhgZIjuV%252BA%3D%3D" H 1950 5150 50  0001 C CNN "Mouser"
+	1    1950 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 4950 2050 5000
+	1950 4950 1950 5000
 Wire Wire Line
-	4200 6600 4200 6700
+	4100 6600 4100 6700
 Wire Wire Line
-	4200 5200 4200 5700
+	4100 5200 4100 5700
 Wire Wire Line
-	4200 5700 4200 6600
+	4100 5700 4100 6600
 Wire Wire Line
-	3150 5300 3150 5200
-Text GLabel 4750 5900 2    50   Input ~ 0
+	3050 5300 3050 5200
+Text GLabel 4650 5900 2    50   Input ~ 0
 BOOT
 Wire Wire Line
-	2150 6600 2000 6600
+	2050 6600 1900 6600
 Wire Wire Line
-	2150 6300 1450 6300
+	2050 6300 1350 6300
 Wire Wire Line
-	1450 6200 2150 6200
+	1350 6200 2050 6200
 Wire Wire Line
-	2150 6100 1450 6100
+	2050 6100 1350 6100
 Wire Wire Line
-	1450 6500 2050 6500
+	1350 6500 1950 6500
 Wire Wire Line
-	2050 5300 2050 6500
-Connection ~ 2050 6500
+	1950 5300 1950 6500
+Connection ~ 1950 6500
 Wire Wire Line
-	2050 6500 2150 6500
-Text GLabel 4750 6000 2    50   Input ~ 0
+	1950 6500 2050 6500
+Text GLabel 4650 6000 2    50   Input ~ 0
 PA9
-Text GLabel 4750 6500 2    50   Input ~ 0
+Text GLabel 4650 6500 2    50   Input ~ 0
 PA8
 Wire Wire Line
-	4750 5900 4500 5900
+	4650 5900 4400 5900
 Wire Wire Line
-	4050 6000 4750 6000
+	3950 6000 4500 6000
 Wire Wire Line
-	4750 6500 4050 6500
-Text GLabel 2850 4600 1    50   Input ~ 0
-ADC2
+	4650 6500 3950 6500
 Text GLabel 2750 4600 1    50   Input ~ 0
+ADC2
+Text GLabel 2650 4600 1    50   Input ~ 0
 ADC1
-Text GLabel 3050 4600 1    50   Input ~ 0
-PA0
 Text GLabel 2950 4600 1    50   Input ~ 0
+PA0
+Text GLabel 2850 4600 1    50   Input ~ 0
 PB5
-Text GLabel 3250 4600 1    50   Input ~ 0
+Text GLabel 3150 4600 1    50   Input ~ 0
 PB12
-Text GLabel 3450 4600 1    50   Input ~ 0
-ADC4
 Text GLabel 3350 4600 1    50   Input ~ 0
+ADC4
+Text GLabel 3250 4600 1    50   Input ~ 0
 ADC3
 Wire Wire Line
-	2750 4600 2750 5300
+	2650 4600 2650 5300
+Wire Wire Line
+	2750 5300 2750 4600
 Wire Wire Line
 	2850 5300 2850 4600
 Wire Wire Line
 	2950 5300 2950 4600
 Wire Wire Line
-	3050 5300 3050 4600
+	3150 4600 3150 4900
 Wire Wire Line
-	3250 4600 3250 4900
+	3250 5300 3250 4600
 Wire Wire Line
-	3350 5300 3350 4600
-Wire Wire Line
-	3450 4600 3450 5300
+	3350 4600 3350 5300
 $Comp
 L rak3172_easeboard:PH_1x10 PH1
 U 1 1 615E8E45
@@ -262,15 +262,15 @@ Text GLabel 8150 4150 2    50   Input ~ 0
 UART1_RX
 Text GLabel 8150 4250 2    50   Input ~ 0
 UART1_TX
-Text GLabel 4750 5600 2    50   Input ~ 0
+Text GLabel 4650 5600 2    50   Input ~ 0
 3V3
 Wire Wire Line
-	4750 5600 4400 5600
-Connection ~ 4400 5600
-Text GLabel 4750 5700 2    50   Input ~ 0
+	4650 5600 4300 5600
+Connection ~ 4300 5600
+Text GLabel 4650 5700 2    50   Input ~ 0
 GND
 Wire Wire Line
-	4200 5700 4750 5700
+	4100 5700 4650 5700
 Text GLabel 8150 4050 2    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -349,19 +349,17 @@ Text GLabel 10050 4650 0    50   Input ~ 0
 PB12
 Text GLabel 10050 4750 0    50   Input ~ 0
 ADC3
-Text GLabel 4750 5800 2    50   Input ~ 0
+Text GLabel 4650 5800 2    50   Input ~ 0
 RESET
 Wire Wire Line
-	4750 5800 4600 5800
+	4650 5800 4500 5800
 Wire Wire Line
-	4600 5800 4600 5400
+	4500 5800 4500 5400
+Connection ~ 4500 5800
 Wire Wire Line
-	4600 5400 5200 5400
-Connection ~ 4600 5800
+	4500 5800 3950 5800
 Wire Wire Line
-	4600 5800 4050 5800
-Wire Wire Line
-	4400 4900 4400 5600
+	4300 4900 4300 5600
 Text GLabel 10050 4150 0    50   Input ~ 0
 GND
 Text GLabel 10050 4050 0    50   Input ~ 0
@@ -372,15 +370,15 @@ Wire Wire Line
 	10300 4150 10050 4150
 Text GLabel 8150 6300 2    50   Input ~ 0
 GND
-Text GLabel 1450 6500 0    50   Input ~ 0
+Text GLabel 1350 6500 0    50   Input ~ 0
 I2C_SDA
-Text GLabel 1450 6400 0    50   Input ~ 0
+Text GLabel 1350 6400 0    50   Input ~ 0
 I2C_SCL
-Text GLabel 1450 6100 0    50   Input ~ 0
+Text GLabel 1350 6100 0    50   Input ~ 0
 PA1
-Text GLabel 1450 6300 0    50   Input ~ 0
+Text GLabel 1350 6300 0    50   Input ~ 0
 SWCLK
-Text GLabel 1450 6200 0    50   Input ~ 0
+Text GLabel 1350 6200 0    50   Input ~ 0
 SWDIO
 Wire Wire Line
 	8150 6300 7950 6300
@@ -439,38 +437,38 @@ PIN HEADERS
 $Comp
 L rak3172_easeboard:R R7
 U 1 1 61923601
-P 4050 4600
-F 0 "R7" H 4120 4646 50  0000 L CNN
-F 1 "1K" H 4120 4555 50  0000 L CNN
-F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3980 4600 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 4050 4600 50  0001 C CNN
-F 4 "0.09" H 4050 4600 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220P-102-D?qs=nCAm%252BcMdy9yTJng7kTk2Eg%3D%3D" H 4050 4600 50  0001 C CNN "Mouser"
-	1    4050 4600
+P 3950 4600
+F 0 "R7" H 4020 4646 50  0000 L CNN
+F 1 "1K" H 4020 4555 50  0000 L CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3880 4600 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 3950 4600 50  0001 C CNN
+F 4 "0.09" H 3950 4600 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220P-102-D?qs=nCAm%252BcMdy9yTJng7kTk2Eg%3D%3D" H 3950 4600 50  0001 C CNN "Mouser"
+	1    3950 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L rak3172_easeboard:LED LED2
 U 1 1 61927AB6
-P 3750 4900
-F 0 "LED2" H 3757 4683 50  0000 C CNN
-F 1 "LED" H 3757 4774 50  0000 C CNN
-F 2 "rak3172_easeboard:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3750 4700 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/445/150080GS75000-1715657.pdf" H 3750 4900 50  0001 C CNN
-F 4 "0.15" H 3750 4900 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Wurth-Elektronik/150080GS75000?qs=2kOmHSv6VfQRoTEZVk1mGA%3D%3D" H 3750 4900 50  0001 C CNN "Mouser"
-	1    3750 4900
+P 3650 4900
+F 0 "LED2" H 3657 4683 50  0000 C CNN
+F 1 "LED" H 3657 4774 50  0000 C CNN
+F 2 "rak3172_easeboard:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3650 4700 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/445/150080GS75000-1715657.pdf" H 3650 4900 50  0001 C CNN
+F 4 "0.15" H 3650 4900 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Wurth-Elektronik/150080GS75000?qs=2kOmHSv6VfQRoTEZVk1mGA%3D%3D" H 3650 4900 50  0001 C CNN "Mouser"
+	1    3650 4900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3900 4900 4050 4900
+	3800 4900 3950 4900
 Wire Wire Line
-	4050 4900 4050 4750
+	3950 4900 3950 4750
 Wire Wire Line
-	3600 4900 3250 4900
-Connection ~ 3250 4900
+	3500 4900 3150 4900
+Connection ~ 3150 4900
 Wire Wire Line
-	3250 4900 3250 5300
+	3150 4900 3150 5300
 $Comp
 L rak3172_easeboard:R R1
 U 1 1 6193C80A
@@ -514,7 +512,7 @@ Wire Notes Line
 	7000 6400 7000 550 
 Wire Notes Line
 	550  3750 11150 3750
-Text Notes 2600 4050 0    100  ~ 20
+Text Notes 2800 4050 0    100  ~ 20
 MAIN CORE CIRCUIT
 Wire Wire Line
 	10300 5400 10050 5400
@@ -551,37 +549,37 @@ F 5 "~" H 7600 5850 50  0001 C CNN "Mouser"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 4350 4650 4200
+	4550 4350 4550 4200
 Wire Wire Line
-	4050 4350 4050 4450
+	3950 4350 3950 4450
 $Comp
 L rak3172_easeboard:Conn_Coaxial J1
 U 1 1 61ABA5AF
-P 1250 6700
-F 0 "J1" H 1400 6750 50  0000 C CNN
-F 1 "Conn_Coaxial" H 1600 6650 50  0000 C CNN
-F 2 "rak3172_easeboard:SMA_Molex_73251-1153_EdgeMount_Horizontal" V 1450 6400 50  0001 C CNN
-F 3 "~" H 1250 6700 50  0001 C CNN
-F 4 "~" H 1250 6700 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "~" H 1250 6700 50  0001 C CNN "Mouser"
-	1    1250 6700
+P 1150 6700
+F 0 "J1" H 1300 6750 50  0000 C CNN
+F 1 "Conn_Coaxial" H 1500 6650 50  0000 C CNN
+F 2 "rak3172_easeboard:SMA_Molex_73251-1153_EdgeMount_Horizontal" V 1350 6400 50  0001 C CNN
+F 3 "~" H 1150 6700 50  0001 C CNN
+F 4 "~" H 1150 6700 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "~" H 1150 6700 50  0001 C CNN "Mouser"
+	1    1150 6700
 	-1   0    0    -1  
 $EndComp
 $Comp
 L rak3172_easeboard:GND #PWR03
 U 1 1 61AD1456
-P 1250 6950
-F 0 "#PWR03" H 1250 6700 50  0001 C CNN
-F 1 "GND" H 1255 6777 50  0000 C CNN
-F 2 "" H 1250 6950 50  0001 C CNN
-F 3 "" H 1250 6950 50  0001 C CNN
-	1    1250 6950
+P 1150 6950
+F 0 "#PWR03" H 1150 6700 50  0001 C CNN
+F 1 "GND" H 1155 6777 50  0000 C CNN
+F 2 "" H 1150 6950 50  0001 C CNN
+F 3 "" H 1150 6950 50  0001 C CNN
+	1    1150 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 6600 2000 6950
+	1900 6600 1900 6950
 Wire Wire Line
-	1250 6950 1250 6900
+	1150 6950 1150 6900
 $Comp
 L rak3172_easeboard:VCC #PWR013
 U 1 1 61AF83C9
@@ -745,47 +743,47 @@ UART2_RX
 Text GLabel 6450 1650 2    50   Input ~ 0
 UART2_TX
 Wire Wire Line
-	3250 7250 3250 6950
-Wire Wire Line
-	3150 6950 3150 7250
+	3150 7250 3150 6950
 Wire Wire Line
 	3050 6950 3050 7250
 Wire Wire Line
-	2950 7250 2950 6950
-Text GLabel 3050 7250 3    50   Input ~ 0
-SPI_MISO
-Text GLabel 3150 7250 3    50   Input ~ 0
-SPI_CLK
+	2950 6950 2950 7250
+Wire Wire Line
+	2850 7250 2850 6950
 Text GLabel 2950 7250 3    50   Input ~ 0
+SPI_MISO
+Text GLabel 3050 7250 3    50   Input ~ 0
+SPI_CLK
+Text GLabel 2850 7250 3    50   Input ~ 0
 SPI_MOSI
-Text GLabel 3250 7250 3    50   Input ~ 0
+Text GLabel 3150 7250 3    50   Input ~ 0
 SPI_NSS
 $Comp
 L rak3172_easeboard:GND #PWR04
 U 1 1 6153D503
-P 2000 6950
-F 0 "#PWR04" H 2000 6700 50  0001 C CNN
-F 1 "GND" H 2005 6777 50  0000 C CNN
-F 2 "" H 2000 6950 50  0001 C CNN
-F 3 "" H 2000 6950 50  0001 C CNN
-	1    2000 6950
+P 1900 6950
+F 0 "#PWR04" H 1900 6700 50  0001 C CNN
+F 1 "GND" H 1905 6777 50  0000 C CNN
+F 2 "" H 1900 6950 50  0001 C CNN
+F 3 "" H 1900 6950 50  0001 C CNN
+	1    1900 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L rak3172_easeboard:R R8
 U 1 1 61794920
-P 1750 6700
-F 0 "R8" V 1850 6700 50  0000 L CNN
-F 1 "0" V 1650 6650 50  0000 L CNN
-F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1680 6700 50  0001 C CNN
-F 3 "~" H 1750 6700 50  0001 C CNN
-	1    1750 6700
+P 1650 6700
+F 0 "R8" V 1750 6700 50  0000 L CNN
+F 1 "0" V 1550 6650 50  0000 L CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1580 6700 50  0001 C CNN
+F 3 "~" H 1650 6700 50  0001 C CNN
+	1    1650 6700
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1900 6700 2150 6700
+	1800 6700 2050 6700
 Wire Wire Line
-	1600 6700 1450 6700
+	1500 6700 1350 6700
 Text Notes 2700 700  0    100  ~ 20
 USB-SERIAL CONVERTER
 $Comp
@@ -880,9 +878,9 @@ Battery Connector
 Wire Wire Line
 	5150 1150 5250 1150
 Wire Wire Line
-	4050 4350 4200 4350
+	3950 4350 4100 4350
 Wire Wire Line
-	4500 4350 4650 4350
+	4400 4350 4550 4350
 $Comp
 L rak3172_easeboard:SolderJumper_2_Bridged JP2
 U 1 1 61BC7834
@@ -910,13 +908,13 @@ $EndComp
 $Comp
 L rak3172_easeboard:SolderJumper_2_Bridged JP1
 U 1 1 61BE2F2E
-P 4350 4350
-F 0 "JP1" H 4350 4463 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 4350 4250 50  0001 C CNN
-F 2 "rak3172_easeboard:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 4350 4350 50  0001 C CNN
-F 3 "~" H 4350 4350 50  0001 C CNN
-F 4 "~" H 4350 4350 50  0001 C CNN "Last Seen Price (eur)"
-	1    4350 4350
+P 4250 4350
+F 0 "JP1" H 4250 4463 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 4250 4250 50  0001 C CNN
+F 2 "rak3172_easeboard:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 4250 4350 50  0001 C CNN
+F 3 "~" H 4250 4350 50  0001 C CNN
+F 4 "~" H 4250 4350 50  0001 C CNN "Last Seen Price (eur)"
+	1    4250 4350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1053,45 +1051,45 @@ $EndComp
 $Comp
 L rak3172_easeboard:+3.3V #PWR026
 U 1 1 616EBC56
-P 5700 4900
-F 0 "#PWR026" H 5700 4750 50  0001 C CNN
-F 1 "+3.3V" H 5715 5073 50  0000 C CNN
-F 2 "" H 5700 4900 50  0001 C CNN
-F 3 "" H 5700 4900 50  0001 C CNN
-	1    5700 4900
+P 5800 4500
+F 0 "#PWR026" H 5800 4350 50  0001 C CNN
+F 1 "+3.3V" H 5815 4673 50  0000 C CNN
+F 2 "" H 5800 4500 50  0001 C CNN
+F 3 "" H 5800 4500 50  0001 C CNN
+	1    5800 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L rak3172_easeboard:+3.3V #PWR023
 U 1 1 616EC566
-P 4400 4900
-F 0 "#PWR023" H 4400 4750 50  0001 C CNN
-F 1 "+3.3V" H 4415 5073 50  0000 C CNN
-F 2 "" H 4400 4900 50  0001 C CNN
-F 3 "" H 4400 4900 50  0001 C CNN
-	1    4400 4900
+P 4300 4900
+F 0 "#PWR023" H 4300 4750 50  0001 C CNN
+F 1 "+3.3V" H 4315 5073 50  0000 C CNN
+F 2 "" H 4300 4900 50  0001 C CNN
+F 3 "" H 4300 4900 50  0001 C CNN
+	1    4300 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L rak3172_easeboard:+3.3V #PWR024
 U 1 1 616FACF8
-P 4650 4200
-F 0 "#PWR024" H 4650 4050 50  0001 C CNN
-F 1 "+3.3V" H 4665 4373 50  0000 C CNN
-F 2 "" H 4650 4200 50  0001 C CNN
-F 3 "" H 4650 4200 50  0001 C CNN
-	1    4650 4200
+P 4550 4200
+F 0 "#PWR024" H 4550 4050 50  0001 C CNN
+F 1 "+3.3V" H 4565 4373 50  0000 C CNN
+F 2 "" H 4550 4200 50  0001 C CNN
+F 3 "" H 4550 4200 50  0001 C CNN
+	1    4550 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L rak3172_easeboard:+3.3V #PWR020
 U 1 1 61718630
-P 1150 4500
-F 0 "#PWR020" H 1150 4350 50  0001 C CNN
-F 1 "+3.3V" H 1165 4673 50  0000 C CNN
-F 2 "" H 1150 4500 50  0001 C CNN
-F 3 "" H 1150 4500 50  0001 C CNN
-	1    1150 4500
+P 1050 4500
+F 0 "#PWR020" H 1050 4350 50  0001 C CNN
+F 1 "+3.3V" H 1065 4673 50  0000 C CNN
+F 2 "" H 1050 4500 50  0001 C CNN
+F 3 "" H 1050 4500 50  0001 C CNN
+	1    1050 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1146,14 +1144,14 @@ RESET
 $Comp
 L rak3172_easeboard:R R2
 U 1 1 6155484F
-P 5700 5150
-F 0 "R2" H 5770 5196 50  0000 L CNN
-F 1 "10K" H 5770 5105 50  0000 L CNN
-F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5630 5150 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 5700 5150 50  0001 C CNN
-F 4 "0.09" H 5700 5150 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220P-103-D?qs=nCAm%252BcMdy9wM6YRNq%2FvwoQ%3D%3D" H 5700 5150 50  0001 C CNN "Mouser"
-	1    5700 5150
+P 5800 4750
+F 0 "R2" H 5870 4796 50  0000 L CNN
+F 1 "10K" H 5870 4705 50  0000 L CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5730 4750 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 5800 4750 50  0001 C CNN
+F 4 "0.09" H 5800 4750 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220P-103-D?qs=nCAm%252BcMdy9wM6YRNq%2FvwoQ%3D%3D" H 5800 4750 50  0001 C CNN "Mouser"
+	1    5800 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1201,12 +1199,12 @@ Wire Wire Line
 Wire Wire Line
 	5700 1150 5550 1150
 Wire Wire Line
-	950  4950 1150 4950
+	850  4950 1050 4950
 Wire Wire Line
-	1150 5000 1150 4950
-Connection ~ 1150 4950
+	1050 5000 1050 4950
+Connection ~ 1050 4950
 Wire Wire Line
-	1150 4950 1350 4950
+	1050 4950 1250 4950
 Wire Wire Line
 	7500 3050 7600 3050
 Wire Wire Line
@@ -1235,53 +1233,53 @@ $EndComp
 $Comp
 L rak3172_easeboard:SW_Push SW1
 U 1 1 615872D6
-P 6150 5400
-F 0 "SW1" H 6150 5685 50  0000 C CNN
-F 1 "SW_Push" H 6150 5594 50  0000 C CNN
-F 2 "rak3172_easeboard:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 6150 5600 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/358/typ_6x6_mm_tact_switches-1275689.pdf" H 6150 5600 50  0001 C CNN
-F 4 "0.21" H 6150 5400 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Schurter/13019318?qs=tGaZrb6HVSaxYojxkk2y5w%3D%3D" H 6150 5400 50  0001 C CNN "Mouser"
-	1    6150 5400
+P 6250 5000
+F 0 "SW1" H 6250 5285 50  0000 C CNN
+F 1 "SW_Push" H 6250 5194 50  0000 C CNN
+F 2 "rak3172_easeboard:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 6250 5200 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/358/typ_6x6_mm_tact_switches-1275689.pdf" H 6250 5200 50  0001 C CNN
+F 4 "0.21" H 6250 5000 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Schurter/13019318?qs=tGaZrb6HVSaxYojxkk2y5w%3D%3D" H 6250 5000 50  0001 C CNN "Mouser"
+	1    6250 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L rak3172_easeboard:+3.3V #PWR033
 U 1 1 61D6F694
-P 5100 4900
-F 0 "#PWR033" H 5100 4750 50  0001 C CNN
-F 1 "+3.3V" H 5115 5073 50  0000 C CNN
-F 2 "" H 5100 4900 50  0001 C CNN
-F 3 "" H 5100 4900 50  0001 C CNN
-	1    5100 4900
+P 5000 4900
+F 0 "#PWR033" H 5000 4750 50  0001 C CNN
+F 1 "+3.3V" H 5015 5073 50  0000 C CNN
+F 2 "" H 5000 4900 50  0001 C CNN
+F 3 "" H 5000 4900 50  0001 C CNN
+	1    5000 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L rak3172_easeboard:SW_Push SW2
 U 1 1 61D7D339
-P 4800 5200
-F 0 "SW2" H 4800 5485 50  0000 C CNN
-F 1 "SW_Push" H 4800 5394 50  0000 C CNN
-F 2 "rak3172_easeboard:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 4800 5400 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/358/typ_6x6_mm_tact_switches-1275689.pdf" H 4800 5400 50  0001 C CNN
-F 4 "0.21" H 4800 5200 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Schurter/13019318?qs=tGaZrb6HVSaxYojxkk2y5w%3D%3D" H 4800 5200 50  0001 C CNN "Mouser"
-	1    4800 5200
+P 4700 5200
+F 0 "SW2" H 4700 5485 50  0000 C CNN
+F 1 "SW_Push" H 4700 5394 50  0000 C CNN
+F 2 "rak3172_easeboard:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 4700 5400 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/358/typ_6x6_mm_tact_switches-1275689.pdf" H 4700 5400 50  0001 C CNN
+F 4 "0.21" H 4700 5200 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Schurter/13019318?qs=tGaZrb6HVSaxYojxkk2y5w%3D%3D" H 4700 5200 50  0001 C CNN "Mouser"
+	1    4700 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 4900 5100 5200
+	5000 4900 5000 5200
 Wire Wire Line
-	5100 5200 5000 5200
+	5000 5200 4900 5200
 Wire Wire Line
-	4600 5200 4500 5200
+	4500 5200 4400 5200
 Wire Wire Line
-	4500 5200 4500 5900
-Connection ~ 4500 5900
+	4400 5200 4400 5900
+Connection ~ 4400 5900
 Wire Wire Line
-	4500 5900 4050 5900
+	4400 5900 3950 5900
 Wire Wire Line
-	4200 6700 4200 6950
+	4100 6700 4100 6950
 Wire Wire Line
 	1100 2900 1100 2950
 NoConn ~ 800  2900
@@ -1365,25 +1363,25 @@ Wire Wire Line
 $Comp
 L rak3172_easeboard:+3.3V #PWR022
 U 1 1 61717B6C
-P 1950 4900
-F 0 "#PWR022" H 1950 4750 50  0001 C CNN
-F 1 "+3.3V" H 1965 5073 50  0000 C CNN
-F 2 "" H 1950 4900 50  0001 C CNN
-F 3 "" H 1950 4900 50  0001 C CNN
-	1    1950 4900
+P 1850 4900
+F 0 "#PWR022" H 1850 4750 50  0001 C CNN
+F 1 "+3.3V" H 1865 5073 50  0000 C CNN
+F 2 "" H 1850 4900 50  0001 C CNN
+F 3 "" H 1850 4900 50  0001 C CNN
+	1    1850 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L rak3172_easeboard:R R5
 U 1 1 6157CEDD
-P 1850 5150
-F 0 "R5" H 1700 5200 50  0000 L CNN
-F 1 "5K1" H 1650 5100 50  0000 L CNN
-F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1780 5150 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/315/AOA0000C307-1149632.pdf" H 1850 5150 50  0001 C CNN
-F 4 "0.09" H 1850 5150 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Panasonic/ERA-6AED512V?qs=MNPzkKEzRtSyMhgZIjuV%252BA%3D%3D" H 1850 5150 50  0001 C CNN "Mouser"
-	1    1850 5150
+P 1750 5150
+F 0 "R5" H 1600 5200 50  0000 L CNN
+F 1 "5K1" H 1550 5100 50  0000 L CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1680 5150 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/315/AOA0000C307-1149632.pdf" H 1750 5150 50  0001 C CNN
+F 4 "0.09" H 1750 5150 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Panasonic/ERA-6AED512V?qs=MNPzkKEzRtSyMhgZIjuV%252BA%3D%3D" H 1750 5150 50  0001 C CNN "Mouser"
+	1    1750 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1419,127 +1417,261 @@ F 4 "~" H 6150 1550 50  0001 C CNN "Last Seen Price (eur)"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 5000 1850 4950
+	1750 5000 1750 4950
 Wire Wire Line
-	1850 4950 1950 4950
+	1750 4950 1850 4950
 Wire Wire Line
-	1950 4950 1950 4900
+	1850 4950 1850 4900
 Wire Wire Line
-	2050 4950 1950 4950
-Connection ~ 1950 4950
+	1950 4950 1850 4950
+Connection ~ 1850 4950
 Wire Wire Line
-	1850 5300 1850 6400
-Connection ~ 1850 6400
+	1750 5300 1750 6400
+Connection ~ 1750 6400
 Wire Wire Line
-	1850 6400 2150 6400
+	1750 6400 2050 6400
 Wire Wire Line
-	1450 6400 1850 6400
+	1350 6400 1750 6400
 $Comp
 L rak3172_easeboard:R R3
 U 1 1 615B2B32
-P 5350 5400
-F 0 "R3" V 5450 5400 50  0000 L CNN
-F 1 "100" V 5250 5350 50  0000 L CNN
-F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5280 5400 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 5350 5400 50  0001 C CNN
-F 4 "0.09" H 5350 5400 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220P-101-D?qs=nCAm%252BcMdy9wY7%252BMDbbfOYA%3D%3D" H 5350 5400 50  0001 C CNN "Mouser"
-	1    5350 5400
+P 5450 5000
+F 0 "R3" V 5550 5000 50  0000 L CNN
+F 1 "100" V 5350 4950 50  0000 L CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5380 5000 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 5450 5000 50  0001 C CNN
+F 4 "0.09" H 5450 5000 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220P-101-D?qs=nCAm%252BcMdy9wY7%252BMDbbfOYA%3D%3D" H 5450 5000 50  0001 C CNN "Mouser"
+	1    5450 5000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5700 5400 5500 5400
+	5800 5000 5600 5000
 $Comp
 L rak3172_easeboard:RAK3172 U1
 U 1 1 6153A147
-P 3100 6150
-F 0 "U1" H 2300 7000 50  0000 C CNN
-F 1 "RAK3172" H 3100 6150 50  0000 C CNN
-F 2 "rak3172_easeboard:RAK3172" H 2250 5400 50  0001 C CNN
-F 3 "https://docs.rakwireless.com/Product-Categories/WisDuo/RAK3172-Module/Datasheet" H 2300 7000 50  0001 C CNN
-F 4 "5.15" H 3100 6150 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://store.rakwireless.com/products/wisduo-lpwan-module-rak3172?utm_source=rak3172landingpage&utm_medium=header&utm_campaign=RAKwireless&variant=40014759329990" H 3100 6150 50  0001 C CNN "Mouser"
-	1    3100 6150
+P 3000 6150
+F 0 "U1" H 2200 7000 50  0000 C CNN
+F 1 "RAK3172" H 3000 6150 50  0000 C CNN
+F 2 "rak3172_easeboard:RAK3172" H 2150 5400 50  0001 C CNN
+F 3 "https://docs.rakwireless.com/Product-Categories/WisDuo/RAK3172-Module/Datasheet" H 2200 7000 50  0001 C CNN
+F 4 "5.15" H 3000 6150 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://store.rakwireless.com/products/wisduo-lpwan-module-rak3172?utm_source=rak3172landingpage&utm_medium=header&utm_campaign=RAKwireless&variant=40014759329990" H 3000 6150 50  0001 C CNN "Mouser"
+	1    3000 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 6000 1800 6000
+	2050 6000 1700 6000
 Wire Wire Line
-	1800 5900 2150 5900
+	1700 5900 2050 5900
 Wire Wire Line
-	1800 5600 2150 5600
+	1700 5600 2050 5600
 Wire Wire Line
-	2150 5700 1800 5700
+	2050 5700 1700 5700
 Wire Wire Line
-	1450 5800 2150 5800
-Text GLabel 1450 5800 0    50   Input ~ 0
+	1350 5800 2050 5800
+Text GLabel 1350 5800 0    50   Input ~ 0
 ADC5
-Text GLabel 1450 5600 0    50   Input ~ 0
+Text GLabel 1350 5600 0    50   Input ~ 0
 UART2_RX
-Text GLabel 1450 5700 0    50   Input ~ 0
+Text GLabel 1350 5700 0    50   Input ~ 0
 UART2_TX
 Wire Wire Line
-	1450 5600 1500 5600
+	1350 5600 1400 5600
 Wire Wire Line
-	1500 5700 1450 5700
+	1400 5700 1350 5700
 $Comp
 L rak3172_easeboard:R R13
 U 1 1 61984AB7
-P 1650 5600
-F 0 "R13" V 1850 5700 50  0000 C CNN
-F 1 "22" V 1850 5550 50  0000 C CNN
-F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1580 5600 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1650 5600 50  0001 C CNN
-F 4 "0.09" H 1650 5600 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220Q-220-D?qs=U7dmUkNviFsL4com4sXnaQ%3D%3D" H 1650 5600 50  0001 C CNN "Mouser"
-	1    1650 5600
+P 1550 5600
+F 0 "R13" V 1750 5700 50  0000 C CNN
+F 1 "22" V 1750 5550 50  0000 C CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1480 5600 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1550 5600 50  0001 C CNN
+F 4 "0.09" H 1550 5600 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220Q-220-D?qs=U7dmUkNviFsL4com4sXnaQ%3D%3D" H 1550 5600 50  0001 C CNN "Mouser"
+	1    1550 5600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L rak3172_easeboard:R R14
 U 1 1 61984AAF
-P 1650 5700
-F 0 "R14" V 1850 5800 50  0000 C CNN
-F 1 "22" V 1850 5650 50  0000 C CNN
-F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1580 5700 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1650 5700 50  0001 C CNN
-F 4 "0.09" H 1650 5700 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220Q-220-D?qs=U7dmUkNviFsL4com4sXnaQ%3D%3D" H 1650 5700 50  0001 C CNN "Mouser"
-	1    1650 5700
+P 1550 5700
+F 0 "R14" V 1750 5800 50  0000 C CNN
+F 1 "22" V 1750 5650 50  0000 C CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1480 5700 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1550 5700 50  0001 C CNN
+F 4 "0.09" H 1550 5700 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220Q-220-D?qs=U7dmUkNviFsL4com4sXnaQ%3D%3D" H 1550 5700 50  0001 C CNN "Mouser"
+	1    1550 5700
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1500 5900 1450 5900
+	1400 5900 1350 5900
 Wire Wire Line
-	1450 6000 1500 6000
+	1350 6000 1400 6000
 $Comp
 L rak3172_easeboard:R R16
 U 1 1 619D2833
-P 1650 6000
-F 0 "R16" V 1650 6100 50  0000 C CNN
-F 1 "22" V 1650 5950 50  0000 C CNN
-F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1580 6000 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1650 6000 50  0001 C CNN
-F 4 "0.09" H 1650 6000 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220Q-220-D?qs=U7dmUkNviFsL4com4sXnaQ%3D%3D" H 1650 6000 50  0001 C CNN "Mouser"
-	1    1650 6000
+P 1550 6000
+F 0 "R16" V 1550 6100 50  0000 C CNN
+F 1 "22" V 1550 5950 50  0000 C CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1480 6000 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1550 6000 50  0001 C CNN
+F 4 "0.09" H 1550 6000 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220Q-220-D?qs=U7dmUkNviFsL4com4sXnaQ%3D%3D" H 1550 6000 50  0001 C CNN "Mouser"
+	1    1550 6000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1450 6000 0    50   Input ~ 0
+Text GLabel 1350 6000 0    50   Input ~ 0
 UART1_RX
-Text GLabel 1450 5900 0    50   Input ~ 0
+Text GLabel 1350 5900 0    50   Input ~ 0
 UART1_TX
 $Comp
 L rak3172_easeboard:R R15
 U 1 1 619D283B
-P 1650 5900
-F 0 "R15" V 1650 6000 50  0000 C CNN
-F 1 "22" V 1650 5850 50  0000 C CNN
-F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1580 5900 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1650 5900 50  0001 C CNN
-F 4 "0.09" H 1650 5900 50  0001 C CNN "Last Seen Price (eur)"
-F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220Q-220-D?qs=U7dmUkNviFsL4com4sXnaQ%3D%3D" H 1650 5900 50  0001 C CNN "Mouser"
-	1    1650 5900
+P 1550 5900
+F 0 "R15" V 1550 6000 50  0000 C CNN
+F 1 "22" V 1550 5850 50  0000 C CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1480 5900 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 1550 5900 50  0001 C CNN
+F 4 "0.09" H 1550 5900 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220Q-220-D?qs=U7dmUkNviFsL4com4sXnaQ%3D%3D" H 1550 5900 50  0001 C CNN "Mouser"
+	1    1550 5900
 	0    -1   -1   0   
 $EndComp
+$Comp
+L rak3172_easeboard:C C7
+U 1 1 61C09215
+P 5800 6750
+F 0 "C7" H 5915 6796 50  0000 L CNN
+F 1 "100nF" H 5915 6705 50  0000 L CNN
+F 2 "rak3172_easeboard:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5750 6250 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 5800 6750 50  0001 C CNN
+F 4 "0.09" H 5800 6750 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/KEMET/C0805C104M5RACTU?qs=sGAEpiMZZMsh%252B1woXyUXj%252BSRFd9RE8bC9ywBatmv%2F3c%3D" H 5800 6750 50  0001 C CNN "Mouser"
+	1    5800 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L rak3172_easeboard:GND #PWR031
+U 1 1 61C0921B
+P 5800 7000
+F 0 "#PWR031" H 5800 6750 50  0001 C CNN
+F 1 "GND" H 5805 6827 50  0000 C CNN
+F 2 "" H 5800 7000 50  0001 C CNN
+F 3 "" H 5800 7000 50  0001 C CNN
+	1    5800 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 6000 5800 6100
+Wire Wire Line
+	5800 6400 5800 6500
+Wire Wire Line
+	5800 6900 5800 7000
+Wire Wire Line
+	6050 6500 5800 6500
+Connection ~ 5800 6500
+Wire Wire Line
+	5800 6500 5800 6600
+$Comp
+L rak3172_easeboard:GND #PWR032
+U 1 1 61C09227
+P 6550 7000
+F 0 "#PWR032" H 6550 6750 50  0001 C CNN
+F 1 "GND" H 6555 6827 50  0000 C CNN
+F 2 "" H 6550 7000 50  0001 C CNN
+F 3 "" H 6550 7000 50  0001 C CNN
+	1    6550 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L rak3172_easeboard:R R19
+U 1 1 61C0922F
+P 6550 6750
+F 0 "R19" H 6620 6796 50  0000 L CNN
+F 1 "100" H 6620 6705 50  0000 L CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6480 6750 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 6550 6750 50  0001 C CNN
+F 4 "0.09" H 6550 6750 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220P-101-D?qs=nCAm%252BcMdy9wY7%252BMDbbfOYA%3D%3D" H 6550 6750 50  0001 C CNN "Mouser"
+	1    6550 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 6500 6550 6500
+Wire Wire Line
+	6550 6600 6550 6500
+Wire Wire Line
+	6550 6900 6550 7000
+$Comp
+L rak3172_easeboard:+3.3V #PWR030
+U 1 1 61C09239
+P 5800 6000
+F 0 "#PWR030" H 5800 5850 50  0001 C CNN
+F 1 "+3.3V" H 5815 6173 50  0000 C CNN
+F 2 "" H 5800 6000 50  0001 C CNN
+F 3 "" H 5800 6000 50  0001 C CNN
+	1    5800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L rak3172_easeboard:R R18
+U 1 1 61C09241
+P 5800 6250
+F 0 "R18" H 5870 6296 50  0000 L CNN
+F 1 "10K" H 5870 6205 50  0000 L CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5730 6250 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 5800 6250 50  0001 C CNN
+F 4 "0.09" H 5800 6250 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220P-103-D?qs=nCAm%252BcMdy9wM6YRNq%2FvwoQ%3D%3D" H 5800 6250 50  0001 C CNN "Mouser"
+	1    5800 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L rak3172_easeboard:SW_Push SW3
+U 1 1 61C09249
+P 6250 6500
+F 0 "SW3" H 6250 6785 50  0000 C CNN
+F 1 "SW_Push" H 6250 6694 50  0000 C CNN
+F 2 "rak3172_easeboard:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 6250 6700 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/358/typ_6x6_mm_tact_switches-1275689.pdf" H 6250 6700 50  0001 C CNN
+F 4 "0.21" H 6250 6500 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Schurter/13019318?qs=tGaZrb6HVSaxYojxkk2y5w%3D%3D" H 6250 6500 50  0001 C CNN "Mouser"
+	1    6250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rak3172_easeboard:R R17
+U 1 1 61C09251
+P 5450 6500
+F 0 "R17" V 5550 6500 50  0000 L CNN
+F 1 "100" V 5350 6450 50  0000 L CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5380 6500 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 5450 6500 50  0001 C CNN
+F 4 "0.09" H 5450 6500 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220P-101-D?qs=nCAm%252BcMdy9wY7%252BMDbbfOYA%3D%3D" H 5450 6500 50  0001 C CNN "Mouser"
+	1    5450 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 6500 5600 6500
+Wire Wire Line
+	4500 5400 5150 5400
+Wire Wire Line
+	5150 5400 5150 5000
+Wire Wire Line
+	5150 5000 5300 5000
+Wire Wire Line
+	5300 6500 5150 6500
+Wire Wire Line
+	5150 6500 5150 6150
+Wire Wire Line
+	5150 6150 4500 6150
+Wire Wire Line
+	4500 6150 4500 6000
+Connection ~ 4500 6000
+Wire Wire Line
+	4500 6000 4650 6000
 $EndSCHEMATC
