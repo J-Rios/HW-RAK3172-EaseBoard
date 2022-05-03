@@ -675,69 +675,61 @@ POWER
 $Comp
 L rak3172_easeboard:GND #PWR010
 U 1 1 61DF3F73
-P 5150 3450
-F 0 "#PWR010" H 5150 3200 50  0001 C CNN
-F 1 "GND" H 5155 3277 50  0000 C CNN
-F 2 "" H 5150 3450 50  0001 C CNN
-F 3 "" H 5150 3450 50  0001 C CNN
-	1    5150 3450
+P 5350 3450
+F 0 "#PWR010" H 5350 3200 50  0001 C CNN
+F 1 "GND" H 5355 3277 50  0000 C CNN
+F 2 "" H 5350 3450 50  0001 C CNN
+F 3 "" H 5350 3450 50  0001 C CNN
+	1    5350 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 3250 5150 3350
+	5350 3250 5350 3350
+Wire Wire Line
+	5450 3250 5450 3350
+Wire Wire Line
+	5450 3350 5350 3350
+Connection ~ 5350 3350
+Wire Wire Line
+	5350 3350 5350 3450
 Wire Wire Line
 	5250 3250 5250 3350
 Wire Wire Line
-	5250 3350 5150 3350
-Connection ~ 5150 3350
-Wire Wire Line
-	5150 3350 5150 3450
+	5250 3350 5350 3350
+Text GLabel 4200 1850 0    50   Input ~ 0
+DATA+
+Text GLabel 4200 1950 0    50   Input ~ 0
+DATA-
 Wire Wire Line
 	5050 3250 5050 3350
 Wire Wire Line
-	5050 3350 5150 3350
-Text GLabel 3900 1850 0    50   Input ~ 0
-DATA+
-Text GLabel 3900 1950 0    50   Input ~ 0
-DATA-
+	5050 3350 5250 3350
+Connection ~ 5250 3350
 Wire Wire Line
-	3900 1950 4250 1950
+	4450 2950 4400 2950
 Wire Wire Line
-	4250 1850 3900 1850
+	4400 2950 4400 3350
 Wire Wire Line
-	4850 3250 4850 3350
-Wire Wire Line
-	4850 3350 5050 3350
+	4400 3350 5050 3350
 Connection ~ 5050 3350
-Wire Wire Line
-	4250 2950 4200 2950
-Wire Wire Line
-	4200 2950 4200 3350
-Wire Wire Line
-	4200 3350 4850 3350
-Connection ~ 4850 3350
 $Comp
 L rak3172_easeboard:FT232RL U2
 U 1 1 61DF0F84
-P 5050 2250
-F 0 "U2" H 4450 3150 50  0000 C CNN
-F 1 "FT232RL" H 5550 1350 50  0000 C CNN
-F 2 "rak3172_easeboard:SSOP-28_5.3x10.2mm_P0.65mm" H 6150 1350 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 5050 2250 50  0001 C CNN
-	1    5050 2250
+P 5250 2250
+F 0 "U2" H 4650 3150 50  0000 C CNN
+F 1 "FT232RL" H 5750 1350 50  0000 C CNN
+F 2 "rak3172_easeboard:SSOP-28_5.3x10.2mm_P0.65mm" H 6350 1350 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 5250 2250 50  0001 C CNN
+	1    5250 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4950 1150 4950 1250
+	5150 1150 5150 1250
 Wire Wire Line
-	5150 1250 5150 1150
-Connection ~ 5150 1150
+	5350 1250 5350 1150
+Connection ~ 5350 1150
 Wire Wire Line
-	5150 1150 4950 1150
-Text GLabel 6450 1550 2    50   Input ~ 0
-UART2_RX
-Text GLabel 6450 1650 2    50   Input ~ 0
-UART2_TX
+	5350 1150 5150 1150
 Wire Wire Line
 	3150 7250 3150 6950
 Wire Wire Line
@@ -780,7 +772,7 @@ Wire Wire Line
 	1800 6700 2050 6700
 Wire Wire Line
 	1500 6700 1400 6700
-Text Notes 2700 700  0    100  ~ 20
+Text Notes 2750 700  0    100  ~ 20
 USB-SERIAL CONVERTER
 $Comp
 L rak3172_easeboard:JST_1x2 JST1
@@ -872,7 +864,7 @@ Wire Wire Line
 Text Notes 7350 2500 0    50   ~ 10
 Battery Connector
 Wire Wire Line
-	5150 1150 5250 1150
+	5350 1150 5450 1150
 Wire Wire Line
 	3950 4350 4100 4350
 Wire Wire Line
@@ -880,13 +872,13 @@ Wire Wire Line
 $Comp
 L rak3172_easeboard:SolderJumper_2_Bridged JP2
 U 1 1 61BC7834
-P 5400 1150
-F 0 "JP2" H 5400 1263 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 5400 1050 50  0001 C CNN
-F 2 "rak3172_easeboard:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 5400 1150 50  0001 C CNN
-F 3 "~" H 5400 1150 50  0001 C CNN
-F 4 "~" H 5400 1150 50  0001 C CNN "Last Seen Price (eur)"
-	1    5400 1150
+P 5600 1150
+F 0 "JP2" H 5600 1263 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 5600 1050 50  0001 C CNN
+F 2 "rak3172_easeboard:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 5600 1150 50  0001 C CNN
+F 3 "~" H 5600 1150 50  0001 C CNN
+F 4 "~" H 5600 1150 50  0001 C CNN "Last Seen Price (eur)"
+	1    5600 1150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1113,30 +1105,28 @@ $EndComp
 $Comp
 L rak3172_easeboard:VBUS #PWR025
 U 1 1 6176782E
-P 5700 1050
-F 0 "#PWR025" H 5700 900 50  0001 C CNN
-F 1 "VBUS" H 5715 1223 50  0000 C CNN
-F 2 "" H 5700 1050 50  0001 C CNN
-F 3 "" H 5700 1050 50  0001 C CNN
-	1    5700 1050
+P 5900 1050
+F 0 "#PWR025" H 5900 900 50  0001 C CNN
+F 1 "VBUS" H 5915 1223 50  0000 C CNN
+F 2 "" H 5900 1050 50  0001 C CNN
+F 3 "" H 5900 1050 50  0001 C CNN
+	1    5900 1050
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5850 2550
-NoConn ~ 5850 2650
-NoConn ~ 5850 2750
-NoConn ~ 5850 2850
-NoConn ~ 5850 2950
-NoConn ~ 5850 2250
-NoConn ~ 5850 2150
-NoConn ~ 4250 2650
-NoConn ~ 4250 2450
-NoConn ~ 5850 2050
-NoConn ~ 5850 1950
-NoConn ~ 5850 1850
-NoConn ~ 5850 1750
-NoConn ~ 4250 1550
-Text GLabel 3900 2250 0    50   Input ~ 0
-RESET
+NoConn ~ 6050 2550
+NoConn ~ 6050 2650
+NoConn ~ 6050 2750
+NoConn ~ 6050 2850
+NoConn ~ 6050 2950
+NoConn ~ 6050 2250
+NoConn ~ 6050 2150
+NoConn ~ 4450 2650
+NoConn ~ 4450 2450
+NoConn ~ 6050 2050
+NoConn ~ 6050 1950
+NoConn ~ 6050 1850
+NoConn ~ 6050 1750
+NoConn ~ 4450 1550
 $Comp
 L rak3172_easeboard:R R2
 U 1 1 6155484F
@@ -1150,8 +1140,6 @@ F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220P-103-D?qs=nCAm%252BcMdy9w
 	1    5800 4750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 2250 3900 2250
 Wire Wire Line
 	8900 2000 8900 2050
 Wire Wire Line
@@ -1191,9 +1179,9 @@ Connection ~ 8200 2900
 Wire Wire Line
 	8200 2900 8200 2950
 Wire Wire Line
-	5700 1050 5700 1150
+	5900 1050 5900 1150
 Wire Wire Line
-	5700 1150 5550 1150
+	5900 1150 5750 1150
 Wire Wire Line
 	850  4950 1050 4950
 Wire Wire Line
@@ -1378,38 +1366,6 @@ F 3 "https://www.mouser.es/datasheet/2/315/AOA0000C307-1149632.pdf" H 1750 5150 
 F 4 "0.09" H 1750 5150 50  0001 C CNN "Last Seen Price (eur)"
 F 5 "https://www.mouser.es/ProductDetail/Panasonic/ERA-6AED512V?qs=MNPzkKEzRtSyMhgZIjuV%252BA%3D%3D" H 1750 5150 50  0001 C CNN "Mouser"
 	1    1750 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 1650 6450 1650
-Wire Wire Line
-	5850 1650 6000 1650
-Wire Wire Line
-	6300 1550 6450 1550
-Wire Wire Line
-	5850 1550 6000 1550
-$Comp
-L rak3172_easeboard:SolderJumper_2_Bridged JP4
-U 1 1 61BC86E2
-P 6150 1650
-F 0 "JP4" H 6150 1550 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 6150 1550 50  0001 C CNN
-F 2 "rak3172_easeboard:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 6150 1650 50  0001 C CNN
-F 3 "~" H 6150 1650 50  0001 C CNN
-F 4 "~" H 6150 1650 50  0001 C CNN "Last Seen Price (eur)"
-	1    6150 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L rak3172_easeboard:SolderJumper_2_Bridged JP3
-U 1 1 61BC80B7
-P 6150 1550
-F 0 "JP3" H 6150 1663 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 6150 1450 50  0001 C CNN
-F 2 "rak3172_easeboard:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 6150 1550 50  0001 C CNN
-F 3 "~" H 6150 1550 50  0001 C CNN
-F 4 "~" H 6150 1550 50  0001 C CNN "Last Seen Price (eur)"
-	1    6150 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1705,4 +1661,66 @@ Wire Wire Line
 Connection ~ 1400 6700
 Wire Wire Line
 	1400 6700 1350 6700
+$Comp
+L rak3172_easeboard:R R20
+U 1 1 627371A7
+P 3800 1500
+F 0 "R20" H 3870 1546 50  0000 L CNN
+F 1 "10K" H 3870 1455 50  0000 L CNN
+F 2 "rak3172_easeboard:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3730 1500 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 3800 1500 50  0001 C CNN
+F 4 "0.09" H 3800 1500 50  0001 C CNN "Last Seen Price (eur)"
+F 5 "https://www.mouser.es/ProductDetail/Susumu/RR1220P-103-D?qs=nCAm%252BcMdy9wM6YRNq%2FvwoQ%3D%3D" H 3800 1500 50  0001 C CNN "Mouser"
+	1    3800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rak3172_easeboard:SolderJumper_2_Bridged JP3
+U 1 1 61BC80B7
+P 6250 1550
+F 0 "JP3" H 6250 1663 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 6250 1450 50  0001 C CNN
+F 2 "rak3172_easeboard:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 6250 1550 50  0001 C CNN
+F 3 "~" H 6250 1550 50  0001 C CNN
+F 4 "~" H 6250 1550 50  0001 C CNN "Last Seen Price (eur)"
+	1    6250 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rak3172_easeboard:SolderJumper_2_Bridged JP4
+U 1 1 61BC86E2
+P 6250 1650
+F 0 "JP4" H 6250 1550 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 6250 1550 50  0001 C CNN
+F 2 "rak3172_easeboard:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 6250 1650 50  0001 C CNN
+F 3 "~" H 6250 1650 50  0001 C CNN
+F 4 "~" H 6250 1650 50  0001 C CNN "Last Seen Price (eur)"
+	1    6250 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 6450 1650 2    50   Input ~ 0
+UART2_TX
+Text GLabel 6450 1550 2    50   Input ~ 0
+UART2_RX
+Wire Wire Line
+	6100 1550 6050 1550
+Wire Wire Line
+	6050 1650 6100 1650
+Wire Wire Line
+	6400 1550 6450 1550
+Wire Wire Line
+	6400 1650 6450 1650
+Wire Wire Line
+	4200 1850 4450 1850
+Wire Wire Line
+	4450 1950 4200 1950
+Wire Wire Line
+	3800 2250 3800 1650
+Wire Wire Line
+	3800 2250 4450 2250
+Wire Wire Line
+	5150 1150 3800 1150
+Wire Wire Line
+	3800 1150 3800 1350
+Connection ~ 5150 1150
 $EndSCHEMATC
